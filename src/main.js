@@ -9,6 +9,8 @@ Vue.use(VueRouter)
 //导入vue-resource
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
+//设置请求的根路径
+Vue.http.options.root = '/root';
 
 //导入MUI的样式
 import './lib/mui/css/mui.min.css'
